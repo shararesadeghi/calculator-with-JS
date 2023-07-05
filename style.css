@@ -10,7 +10,7 @@ body{
 }
 .calc{
     width: 400px;
-    margin: 100px auto;
+    margin: 2px auto;
 }
 .display{
     color: #ffffff;
@@ -24,10 +24,10 @@ body{
 .keypad-table tr:first-child .key:active{
     background-color: #a5a5a590
 }
-.keypad-table tr:last-child .key{
+.keypad-table tr td:last-child .key{
     background-color: #ffa45c;
 }
-.keypad-table tr:last-child .key:active{
+.keypad-table tr td:last-child .key:active{
     background-color: #ffa45ccc;
 }
 .key{
